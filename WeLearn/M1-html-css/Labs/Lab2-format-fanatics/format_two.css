@@ -16,20 +16,53 @@
 
 .container {
   display:grid;
-  /* Style the template for the grid */
+  grid-template-rows: repeat(6,1fr);
+  grid-template-columns: repeat(5,1fr);
+/* Style the template for the grid */
 }
 
 /* Making border black */
 #b {
   background-color: black;
+text-align: center;
+}
+
+.bsL{
+  grid-row: span 6;
+  text-align: center;
+}
+.bsR {
+  grid-row: span 6;
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.bordertop {
+grid-column-start: 2;
+grid-column-end: 5;
+grid-row: 1;
 }
 
 #title {
-  grid-column: span 12;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  background-color: orange;
+grid-row: 2;
 }
 
 .photo {
-  grid-column: /*insert format*/;
+  grid-column:5;/*insert format*/
+
 }
 
 /* Style remaining grid elements */
+#photo1 {
+
+}
+
+#photo2 {
+
+}
+
+#photo3 {
+
+}
