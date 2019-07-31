@@ -8,7 +8,7 @@
 
 # students = ["Alice", "Javi", "Damien", "Javi"]
 # students.remove("Javi")
-# # print(students)
+# print(students)
 
 
 # smith_siblings = ["Emliy", "Monique", "Giovanni"]
@@ -34,8 +34,62 @@
 #     print("Hero not found.")
 
 
-names = ["Rickon", "Bran", "Arya", "Sansa", "Jon", "Robb"]
-print(names[::-1])
-print(names[4:2:-1])
-x = names
-print(names[::2])
+# names = ["Rickon", "Bran", "Arya", "Sansa", "Jon", "Robb"]
+# print(names[::-1])
+# print(names[4:2:-1])
+# x = names
+# print(names[::2])
+
+
+# state1 = 'New York'
+# abbv1 = 'NY'
+# state2 = 'California'
+# abbv2 = 'CA'
+# state3 = 'Texas'
+# abbv3 = 'TX'
+# print(abbv2, "is short for", state2)
+
+# labeled_sattes = ['NY: New York', 'CA: California', 'TX: Texas']
+# print(labeled_sattes[1])
+
+# states = ['New York', 'California', 'Texas']
+# abbvs = ['NY', 'CA', 'TX']
+# print(abbvs[1] + " is short for " + states[1])
+
+# states = {"NY": "New York", "CA": "California", "TX": "Texas"}
+# states = {
+# "NY": "New York",
+# "CA": "California",
+# "TX": "Texas"
+# }
+# for abbreviation in states:
+#      print(abbreviation + " is short for " + states[abbreviation])
+
+
+
+pets = [
+    {
+    "name": "Scooby",
+    "animal": "dog",
+    "species": "laborador"
+    "age": 5
+    },
+    {
+    "name": "Kluas",
+    "animal": "fish",
+    "species": "goldfish",
+    "age": 1
+    },
+    {
+    "name": "Garfield",
+    "animal": "cat",
+    "species": "tabby",
+    "age": 3
+    }
+]
+
+
+user1 = [
+    "name": "SpongeBob Squarepants",
+    "username": "PattyFlipper1999"
+]
